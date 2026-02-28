@@ -1,0 +1,84 @@
+/*La hoja de estilos de la pagina de la actividad. Cat Café / Ufología*/
+
+
+body {         /*va sin nada si es una etiqueta que existe en html*/
+    color: #fff;
+    background-color: #000;
+}
+
+ul {
+  list-style-position: inside; /* mete la viñeta dentro del texto */
+  padding-left: 0;             /* quita el espacio extra */
+  margin-left: 0;
+}
+
+.buttonTrad {
+    text-align: right; 
+}
+
+.buttonTrad button {
+    background-color: #ddff88;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 107px;
+    font-size: 110%;
+    font-weight: bold;
+    text-shadow: 0px 3px rgb(255, 255, 255);
+    border-radius: 10%;
+
+}
+
+.intro {  
+    text-align: center; 
+    background-image: url(https://thumbs.dreamstime.com/b/un-gato-misterioso-que-emerge-de-la-oscuridad-gran-fondo-escritorio-una-foto-alta-calidad-para-su-equipo-u-otro-dispositivo-los-231052818.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.requisitos {  /*Si estilizas una class pones un . antes, y un # para un id*/    
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+}
+
+.aceptado {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+
+.aceptado h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.registro {
+    text-align: center; 
+}
+
+.registro button {
+    background-color: #77ff00;
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 150px;
+    font-size: 110%;
+    font-weight: bold;
+    text-shadow: 0px 3px rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+
+#mensaje {  
+    width: 48%;
+    margin-right: 2%;
+}
+
+#mensaje h2, #mensaje h3 {
+  text-align: right;
+}
+
+
+#gatoalien {  
+    width: 48%;
+    margin-left: 2%;
+}

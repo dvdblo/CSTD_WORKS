@@ -1,0 +1,67 @@
+ <!--esta es una pagina para una actividad. Es la pagina de un Cat Café-->
+
+
+<!DOCTYPE html>    <!--tipo de documento-->
+<html lang="en"> <!--lenguaje-->
+<head>
+
+    <link rel="stylesheet" href="index.css">  <!--link del archivo donde esta la hoja de estilos. Es la primera forma, que es el externo-->
+    <meta charset="UTF-8"> <!--caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <!--Tambien puedes establecer esas cosas directamente en la cabecera-->
+    <!--o directo en la linea de donde quieres que aplique-->
+    <!--puedes poner distintas clases, tipo decri, estas lineas son de esta clase, estas otras de esta otra, y así clasificas y estilizas por clase. Igual hy cosas de id
+    para identificar lineas especificas, se usa mas tipo para botones pero se puede usar en el estilizado-->
+    <title>Te estan mintiendo</title>
+</head>
+
+<body>
+
+    <div class="buttonTrad">
+        <button class="traducir" type="button" onclick="traduccion()">English</button>
+    </div>
+
+    <div class="intro">
+        <h1 class="traducir">TE ESTÁN MINTIENDO</h1>
+        <h2><i class="traducir">"Algunos nos llamarán conspiranóicos, yo prefiero pensar que somos conscientes".</i></h2>
+        <h3 class="traducir">- El gato misterioso, 2026.</h2>
+
+        <p><br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br></p>
+
+    </div>
+
+    <div class ="requisitos">
+        <h2 class="traducir">Postula a nuestro café secreto si te identificas con los siguientes aspectos: </h2>
+        <ul>
+            <li class="traducir">Sientes que el gobierno siempre te observa. <br></br></li>
+            <li class="traducir">Crees en teorías "conspiranóicas" y te llaman loco por eso. <br></br></li>
+            <li class="traducir">Has vivido experiencias paranormales con entes extraterrestres. <br></br></li>
+            <li class="traducir">Vives fuera de los dogmas establecidos en la sociedad. </li>
+        </ul>
+    </div>
+
+    <div class="aceptado" >
+        <h2 class="traducir">Después de ser aceptado, podrás acceder a nuestro menú secreto, y podrás tomarte un café con el gato alien</h2>
+        <br>
+
+        <div id ="mensaje">
+            <h2><i class="traducir">"Te estaré esperando".</i></h2>
+            <h3 class="traducir">- El gato alien, 2026.</h2>
+        </div>
+
+        <div id="gatoalien">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcAtKF_haZRATOdVR0e8a9lNOfq--plFEKQ&s">
+        </div>
+        
+    </div>
+
+    <div class="registro">
+        <h2 class="traducir">¡¡DA CLICK Y REGISTRATE AHORA!!</h2>
+        <p id="Seguro"></p>
+        <button class="traducir" type="button" onclick="formulario()">REGISTRATE</button>
+
+    </div>
+        
+</body>
+</html>
