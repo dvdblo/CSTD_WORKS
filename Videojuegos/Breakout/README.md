@@ -40,4 +40,8 @@ Destroy all the bricks on the screen.
 
 10. Have fun!
 
+## Aditional gameplay
+
+It was implemented the generation of bricks of different colors in equal positions, thus creating platforms with greater resistance. Resistance increases from lowest to highest, from bottom to top.
+
 
